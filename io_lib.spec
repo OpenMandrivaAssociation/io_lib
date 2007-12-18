@@ -1,6 +1,6 @@
 %define name	io_lib
 %define version 1.9.0
-%define release %mkrel 3
+%define release %mkrel 4
 %define major	1.9.0
 %define libname	%mklibname %{name} %{major}
 
