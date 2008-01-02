@@ -13,6 +13,7 @@ Group:		Development/C
 Source:		http://prdownloads.sourceforge.net/staden/%{name}-%{version}.tar.bz2
 Patch:		%{name}-1.9.0.autoconf.patch.bz2
 Url:		http://staden.sourceforge.net/
+Buildroot:	%{_tmppath}/%{name}-%{version}
 BuildRequires:	automake1.9
 BuildRequires:  zlib1-devel
 
