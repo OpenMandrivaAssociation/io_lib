@@ -1,7 +1,8 @@
 %define name	io_lib
-%define version 1.10.2
-%define release %mkrel 3
-%define major	%{version}
+%define base_version 1.11.2
+%define version %{base_version}.1
+%define release %mkrel 1
+%define major	%{base_version}
 %define libname	%mklibname %{name} %{major}
 %define develname %mklibname -d %{name}
 
@@ -13,7 +14,7 @@ License:	GPL
 Group:		Development/C
 Url:		http://staden.sourceforge.net/
 Source:		http://prdownloads.sourceforge.net/staden/%{name}-%{version}.tar.gz
-Patch:      io_lib-1.10.2-libtool.patch
+Patch:      io_lib-1.11.2-libtool.patch
 BuildRequires:  zlib1-devel
 Buildroot:	%{_tmppath}/%{name}-%{version}
 
@@ -43,7 +44,7 @@ Libraries, include files and other resources you can use to develop
 %{name} applications.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{base_version}
 %patch -p1
 
 %build
