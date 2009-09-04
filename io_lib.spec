@@ -1,7 +1,7 @@
 %define name	io_lib
 %define base_version 1.11.2
 %define version %{base_version}.1
-%define release %mkrel 1
+%define release %mkrel 2
 %define major	%{base_version}
 %define libname	%mklibname %{name} %{major}
 %define develname %mklibname -d %{name}
