@@ -1,7 +1,7 @@
 %define name	io_lib
 %define base_version 1.11.2
 %define version %{base_version}.1
-%define release %mkrel 2
+%define release %mkrel 3
 %define major	%{base_version}
 %define libname	%mklibname %{name} %{major}
 %define develname %mklibname -d %{name}
@@ -15,7 +15,7 @@ Group:		Development/C
 Url:		http://staden.sourceforge.net/
 Source:		http://prdownloads.sourceforge.net/staden/%{name}-%{version}.tar.gz
 Patch:      io_lib-1.11.2-libtool.patch
-BuildRequires:  zlib1-devel
+BuildRequires:  zlib-devel
 Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
