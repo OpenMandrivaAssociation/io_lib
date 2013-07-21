@@ -6,13 +6,13 @@
 %define develname %mklibname -d %{name}
 
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Version:	1.13.0
+Release:	1
 Summary:	General purpose trace file library
 License:	GPL
 Group:		Development/C
 Url:		http://staden.sourceforge.net/
-Source0:		http://prdownloads.sourceforge.net/staden/%{name}-%{version}.tar.gz
+Source0:		https://sourceforge.net/projects/staden/files/io_lib/1.13.0/%{name}-%{version}.tar.gz
 BuildRequires:  zlib-devel
 
 %description
@@ -113,7 +113,7 @@ rm -rf %{buildroot}
 * Tue Aug 29 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.9.0-3mdv2007.0
 - Rebuild
 
-* Fri Jul 29 2005 Nicolas Lécureuil <neoclust@mandriva.org> 1.9.0-2mdk
+* Fri Jul 29 2005 Nicolas LÃ©cureuil <neoclust@mandriva.org> 1.9.0-2mdk
 - Fix BuildRequires
 
 * Thu Jul 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 1.9.0-1mdk 
@@ -135,3 +135,4 @@ rm -rf %{buildroot}
 
 * Wed Dec 31 2003 Guillaume Rousse <guillomovitch@mandrake.org> 1.8.11-1mdk
 - first mdk release
+
