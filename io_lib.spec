@@ -11,6 +11,7 @@ License:	GPL
 Group:		Development/C
 Url:		http://staden.sourceforge.net/
 Source0:		http://sourceforge.net/projects/staden/files/io_lib/1.13.5/%{name}-%{version}.tar.gz
+Source100: %{name}.rpmlintrc
 BuildRequires:  zlib-devel
 
 %description
