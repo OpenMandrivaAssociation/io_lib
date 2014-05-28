@@ -3,14 +3,15 @@
 %define develname %mklibname -d %{name}
 
 Name:		io_lib
-Version:	1.13.5
+Version:	1.13.6
 Release:	1
 Summary:	General purpose trace file library
+
 
 License:	GPL
 Group:		Development/C
 Url:		http://staden.sourceforge.net/
-Source0:		http://sourceforge.net/projects/staden/files/io_lib/1.13.5/%{name}-%{version}.tar.gz
+Source0:		http://sourceforge.net/projects/staden/files/io_lib/1.13.6/%{name}-%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 BuildRequires:  zlib-devel
 
@@ -23,6 +24,7 @@ data loaded into memory.
 %package -n %{libname}
 Summary:        Main library for %{name}
 
+
 Group:          System/Libraries
 Provides:       lib%{name} = %{version}-%{release}
 
@@ -31,6 +33,7 @@ This package contains the library needed to run %{name}.
 
 %package -n %{develname}
 Summary:    Development header files for %{name}
+
 
 Group:      Development/C
 Requires:   %{libname} = %{version}-%{release}
@@ -66,6 +69,7 @@ Libraries, include files and other resources you can use to develop
 %{_libdir}/libstaden-read.a
 %{_libdir}/libstaden-read.so
 %{_mandir}/*/*
+
 
 
 
