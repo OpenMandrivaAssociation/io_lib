@@ -2,5 +2,6 @@ removed_sources:
   io_lib-1.12.2.tar.gz: a455d4942777aea9b4d717287285a39f10a04657
   io_lib-1.13.0.tar.gz: 8e8d9cedd53022963cd27df90d3ddd36e203ccfb
   io_lib-1.13.5.tar.gz: 0b8c99b3a62d1c8f19e4f1ab6b0aad9960568599
-sources:
   io_lib-1.13.6.tar.gz: 879dde6f7500c64e527100d198afaa95e9047f84
+sources:
+  io_lib-1.13.7.tar.gz: 4f96f7e25f58d7396e53a66b235a37b55e622f41
