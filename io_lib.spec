@@ -69,7 +69,7 @@ Libraries, include files and other resources you can use to develop
 %files -n %{develname}
 %defattr (-,root,root)
 %{_includedir}/%{name}
-%{_libdir}/libstaden-read.a
+# %{_libdir}/libstaden-read.a
 %{_libdir}/libstaden-read.so
 %{_mandir}/*/*
 
