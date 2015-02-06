@@ -4,7 +4,7 @@
 
 Name:		io_lib
 Version:	1.13.7
-Release:	1
+Release:	2
 Summary:	General purpose trace file library
 
 
