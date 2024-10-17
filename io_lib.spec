@@ -11,7 +11,7 @@ Summary:	General purpose trace file library
 
 License:	GPL
 Group:		Development/C
-Url:		http://staden.sourceforge.net/
+Url:		https://staden.sourceforge.net/
 Source0:		http://sourceforge.net/projects/staden/files/io_lib/1.13.7/%{name}-%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 BuildRequires:  zlib-devel
